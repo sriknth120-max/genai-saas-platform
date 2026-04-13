@@ -1,18 +1,15 @@
-# 🚀 GenAI SaaS Platform
 
-Full-stack AI application using:
-- FastAPI (Backend)
-- React (Frontend)
-- OpenAI (AI)
-- Docker
+# FINAL GenAI SaaS Platform
 
-## Run Backend
+## Run
+export OPENAI_API_KEY=your_key
 docker-compose up --build
 
-## Run Frontend
-cd frontend
-npm install
-npm start
-
-## API Docs
-http://localhost:8000/docs
+## Features
+- JWT Auth
+- GPT-4 AI
+- React UI
+- PostgreSQL
+- Docker
+- Kubernetes
+- Terraform
